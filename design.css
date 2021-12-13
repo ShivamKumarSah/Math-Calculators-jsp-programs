@@ -1,0 +1,146 @@
+/* I am using this css sheet to design all the .html and .jsp page at once so that i don't have to create saparate page and write the same piece of code again and again */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mohave:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* style for "Factorial.html" page */
+body{
+    
+    background:yellow;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#label, p{
+    font-size: 30px;
+}
+
+h1{
+    text-align: center;
+  font-size:60px;
+  padding-bottom: 20px;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						3px 4px #ff1f8f,
+						5px 10px #000000;
+}
+
+input[type=number] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+
+input[type=number]:focus
+{
+    border: 2px solid #ff1f8f;
+}
+
+.horalign{
+    display: flex;
+}
+
+.input
+{
+    width: 50%;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    
+}
+
+#label{
+    text-align: center;
+    font-family: 'Mohave', sans-serif;
+}
+
+#button{
+    background-color: #ff1f8f;
+    padding: 10px;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#button:hover{
+    border-color: #ff1f8f;
+    background-color: yellow;
+    color: #ff1f8f;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+
+}
+
+footer{
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    margin-left: 0;
+    background-color: rgba(255, 31, 143, 0.13);
+}
+
+.footer p{
+    font-size: 10px;
+    padding: 10px 0;
+    text-align: center;
+    color: #ff1f8f;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ff1f8f14;
+    list-style-type: none;
+    font-size: 10px;
+}
+
+
+li a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+
+li a:hover{
+    background-color:#ff1f8f;
+    color: yellow;
+
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar p{
+    margin-inline-end: auto;
+    margin-left: 20px;
+    color: #ff1f8f;
+    font-family: 'Lobster', cursive;
+}
+
+.active{
+    border: 2px solid #ff1f8f;
+    color: #ff1f8f;
+    background-color: yellow;
+}
