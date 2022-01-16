@@ -11,12 +11,16 @@
 <header>
     <nav>
         <div class="navbar">
-            <p>Developer Bros</p>
+            <p><a href="http://localhost:8080/Shivam/jsp/shivam-shubham-jsp-program/" id="home" title="Home">Developer Bros</a></p>
             <ul>
+                <li><a href="table-square-cubes.html">Table Square-Cube</a></li>
+                <li><a href="Largest-number-indicator.html">Largest Number Indicator</a></li>
                 <li><a href="Factorial.html" class="active">Factorial Calculator</a></li>
+                <li><a href="sum-avg.html">Sum, Avg. Calculator</a></li>
+                <li><a href="return-calculator.html">Return Calculator</a></li>
+                <li><a href="integer-counter.html">Integer Counter</a></li>
                 <li><a href="Fibbonaci.html">Fibonacci Calculator</a></li>
                 <li><a href="Show-Date-and-time.jsp">Show Date and time</a></li>
-                <li><a href="Largest-number-indicator.html">Largest Number Indicator</a></li>
             </ul>
         </div>
     </nav>
